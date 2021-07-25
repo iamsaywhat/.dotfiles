@@ -6,6 +6,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'preservim/nerdtree'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 

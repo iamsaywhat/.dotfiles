@@ -1,0 +1,30 @@
+" Vundle setup
+set nocompatible        " be iMproved, required
+filetype off            " required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'bling/vim-airline'
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" Colors
+colorscheme pablo
+syntax on
+
+" Spaces & Tabs
+set tabstop=4       " number of visual spaces per TAB
+set expandtab       " tabs are spaces
+set softtabstop=4   " number of spaces in tab when editing
+
+" UI Config
+set number          " show line numbers
+set autoindent
+filetype indent on  " load filetype-specific indent files
+set cursorline      " highlight current line
+set mouse=a
+set clipboard=unnamedplus
+
+" Text rendering options
+set encoding=utf-8
+set termencoding=utf-8

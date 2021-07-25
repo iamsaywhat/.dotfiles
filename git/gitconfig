@@ -1,0 +1,10 @@
+[user]
+    name = Andrei Seliverstov
+    email = andrei.seliverstov@emlid.com
+[alias]
+    lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    hist = log --pretty=format:'%Cred%h%Creset %ad %C(yellow)|%Creset %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --graph --date=short
+[merge]
+    tool = vimdiff
+    ff = only
+    conflictstyle = diff3

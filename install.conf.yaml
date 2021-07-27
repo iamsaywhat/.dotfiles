@@ -4,3 +4,5 @@
         ~/.gitconfig: git/gitconfig
         ~/.vim: vim/
         ~/.vimrc: vim/vimrc
+        ~/.zsh: zsh/
+        ~/.zshrc: zsh/zshrc

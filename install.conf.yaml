@@ -7,3 +7,4 @@
         ~/.zsh: zsh/
         ~/.zshrc: zsh/zshrc
         ~/.tmux.conf: tmux/tmux.conf
+        ~/.tmux: tmux/

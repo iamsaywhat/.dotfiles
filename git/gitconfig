@@ -8,3 +8,5 @@
     tool = vimdiff
     ff = only
     conflictstyle = diff3
+[core]
+    pager=""

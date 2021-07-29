@@ -1,7 +1,10 @@
 - clean: ['~']
 
 - shell:
-        - [git submodule update --init --recursive, Installing submodules]
+        - command: git submodule update --init --recursive
+          stdout: true
+          stderr: true
+          description: Installing submodules
 
 - link:
         ~/.gitconfig: git/gitconfig

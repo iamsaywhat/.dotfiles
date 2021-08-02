@@ -1,3 +1,4 @@
+ZSH_DISABLE_COMPFIX=true
 export ZSH="$HOME/.zsh/ohmyzsh"
 
 ZSH_THEME="geoffgarside"

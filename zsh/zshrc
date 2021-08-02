@@ -85,5 +85,5 @@ case "${unameOutput}" in
         alias physicalcpu="nproc --all";;
     Darwin)
         alias physicalcpu="sysctl -n hw.physicalcpu";
-        alias logicalcpu="syscl -n hw.logicalcpu";;
+        alias logicalcpu="sysctl -n hw.logicalcpu";;
 esac

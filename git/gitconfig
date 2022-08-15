@@ -4,6 +4,7 @@
 [alias]
     lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     hist = log --pretty=format:'%Cred%h%Creset %ad %C(yellow)|%Creset %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --graph --date=short
+    tree = log --graph --pretty=oneline --abbrev-commit --all --decorate
 [merge]
     tool = vimdiff
     ff = only
